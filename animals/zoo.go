@@ -1,11 +1,11 @@
-package "zoo"
+package animals
 
 import "food"
 
-func PickRightCat() {
+func PickRightCat() string {
 	if (food.PoundsOfMeat() > 25) {
-		Lion();
+		return Lion();
 	} else {
-		Kitty();
+		return Kitty();
 	}	
 }

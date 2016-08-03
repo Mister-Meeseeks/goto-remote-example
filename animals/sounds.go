@@ -1,4 +1,4 @@
-package sounds
+package animals
 
 func Lion() string {
      return "Roar"
